@@ -73,6 +73,6 @@ select json_extract_keys_array('{"": {"": {"": "success"}}}'::json, '..');
 select extract_json_strings('{"": {"": {"": "success"}}}'::json, '..');
 
 \echo Test generic delim
-select json_extract_delim_keys_array(from_json, '|', '', 'jotain|muuta', 'jotain|ihanaa', 'jotain|woot', 'jotain|must_ignore') from test_json limit 1;
+select json_extract_keys_with_delim_array(from_json, '|', '', 'jotain|muuta', 'jotain|ihanaa', 'jotain|woot', 'jotain|must_ignore') from test_json limit 1;
 
 rollback;
