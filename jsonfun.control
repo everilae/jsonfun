@@ -1,0 +1,4 @@
+# JSON functions extension
+default_version = '0.1'
+comment = 'Additional JSON functions for fun and profit.'
+module_pathname = '$libdir/json_extract_keys_array'
