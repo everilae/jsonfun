@@ -89,5 +89,5 @@ create extension jsonfun;
 Contributors
 ============
 
-Ilja Everilä
-Antti Haapala, http://github.com/ztane (original  PL/Python version)
+- Ilja Everilä
+- Antti Haapala, http://github.com/ztane (original  PL/Python version)
